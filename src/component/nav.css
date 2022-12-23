@@ -1,0 +1,639 @@
+.Content{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.nav-right{
+    display: flex;
+    font-size: clamp(0.6rem,1rem,1.2rem);
+}
+.nav-right > * {
+    padding-right: 60px;
+   
+}
+.nav-left{
+   padding-left: 40px;
+   font-size: 1.2rem;
+   font-weight: bolder;
+   animation: glow 1s ease-in-out infinite alternate;
+   text-decoration: none;
+}
+#navb{
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 0.5vw;
+    
+}
+#navb:hover{
+    background-color: aliceblue;
+    color: rgb(6, 2, 52);
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(6, 2, 52);
+    padding: 15px;
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.6);
+    border: 3px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+@keyframes glow{
+   from{
+       text-shadow: 0 0 5px;
+   }
+   to{
+       text-shadow: 0 0 15px  ;
+   }
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.intro{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.mypic{
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 2, 52);
+}
+.mypic img{
+    width: 100%;
+   
+    border-radius: 50%;
+}
+.hi{
+    font-size: 6vh;
+    text-transform:uppercase;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(6, 2, 52) ;
+    margin-top: 14%;
+}
+
+.name{
+     font-size: 9vh;
+     text-transform: uppercase;
+     font-weight: 900;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: black ;
+     
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(6, 2, 52) ;
+    color: aliceblue;
+    padding: 10px;
+    border-radius:30px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.skills > * {
+    padding:0px 10px;
+    font-size: 0.8rem;
+}
+
+.text{
+    width: 80%;
+    margin-top: 4%;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.know-more{
+    background-color: rgb(6, 2, 52) ;
+   
+    padding: 15px;
+    border-radius:30px ;
+    margin-top: 4%;
+    margin-left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.know-more #aboutme{
+    color: aliceblue;
+}
+.know-more:hover #aboutme{
+    color: rgb(6, 2, 52);
+}
+.know-more:hover{
+    background-color: aliceblue;
+    
+    border: 3px solid rgb(6, 2, 52);
+}
+
+
+.my-pic2 img{
+    height: 100%;
+    width: 100%;
+}
+.my-pic2{
+    height: 30vh;
+}
+.about-content{
+    display: flex;
+    height: 91vh;
+}
+.box{
+    
+    height: 100%;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.box3{
+    width: 90%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head-about{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    font-weight: bold;
+    color:aliceblue ;
+    width: 100%;
+}
+.head-about div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 2, 52);
+    width: 80%;
+    height: 20vh;
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my-info{
+    width: 100%;
+    height: 61.8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(6, 2, 52);
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.my-info >*{
+    padding: 2.5vh;
+    
+}
+
+.about-myself{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.heading{
+    font-size: 2vw;
+}
+.skills2{
+    margin-left: 20px;
+    border: 3px solid rgb(6, 2, 52) ;
+    padding: 10px;
+    background-color: aliceblue;
+    color: rgb(6, 2, 52);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.text-body{
+    width: 80%;
+    font-size: 1vw;
+}
+.about-text{
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+}
+
+.profession-box{
+    width: 80%;
+   
+    height: 38vh;
+    display: flex;
+    margin-top: 8px;
+    
+}
+.skill-box{
+    width: 65%;
+    background-color:rgb(6, 2, 52);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    flex-direction: column;
+}
+.work-exp,.info2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.I-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+.do-box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.i-do-imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quali-content,.resume-content{
+    display: flex;
+}
+.quali-box2,.resume-box2{
+    width: 90%;
+}
+
+.about-myquali-box{
+    width: 80%;
+    
+    height: 61.5vh;
+}
+
+
+.resu iframe{
+  height: 50vh;
+  width: 100%;
+  margin: 0;
+  border-radius: 20px;
+  
+}
+.sum-text{
+    width: 35%;
+    margin-right: 4vw;
+    height: 58vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    border-radius: 20px 40px 20px 40px;
+    box-shadow: 0px 4px 6px ;
+    background-image:  linear-gradient(60deg,rgb(9, 3, 68),rgb(166, 156, 194),aliceblue);
+}
+.resu{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 4vw;
+    margin-top: -10px;
+}
+.Summary-quote{
+   
+    font-size: 1vw;
+    
+   
+    padding: 4vh;
+    
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.down-pdf ,.view-pdf{
+     width: 90px;
+     padding: 12px;
+     cursor: pointer;
+     margin-top: 12px;
+     background-color: rgb(6, 2, 52);
+     color: aliceblue;
+     border-radius: 15px;
+     box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+     overflow: hidden;
+     border:3px solid;
+}
+.down-pdf a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.down-pdf:hover,.view-pdf:hover{
+    background-color: aliceblue;
+    color: rgb(6, 2, 52);
+    border:3px solid;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.6);
+    font-weight: bold;
+}
+.down-pdf:hover a{
+    color: rgb(6, 2, 52);
+    font-weight: bold;
+}
+.Myresume{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.Myresume iframe{
+    position: fixed;
+   right: -14%;
+   left: 0;
+   margin-left: auto;
+   margin-right: auto;
+   top: 15%;
+   width: 70%;
+   height: 83%;
+  
+}
+.cross{
+    position: fixed;
+    width:fit-content ;
+    background-color: aliceblue;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+    right: 3%;
+    top: 10%;
+    color: rgb(6, 2, 52);
+    border-radius: 50%;
+    line-height: 15px;
+    border: 3px solid;
+    font-weight: bold;
+    font-size:25px ;
+    padding-bottom: 15px;
+    cursor: pointer;
+
+}
+.cross:hover{
+    background-color:rgb(6, 2, 52) ;
+    color: aliceblue;
+    border:3px solid;
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.8);
+}
+.summary{
+    display: flex;
+   
+    justify-content: space-evenly;
+   
+    align-items: center;
+    
+    padding: 10px;
+    
+}
+.about-myquali{
+    display: flex;
+    justify-content: center;
+}
+.heading-quali{
+    width: 100%;
+   
+   
+    height: 61vh;
+    border-radius: 20px;
+    
+    
+    display: flex;
+}
+.quali-skills{
+    border: 3px solid rgb(6, 2, 52) ;
+    width: 40%;
+    color: aliceblue;
+    border-radius: 30px;
+    background-image:  linear-gradient(60deg,rgb(9, 3, 68),rgb(166, 156, 194),aliceblue);
+}
+.education{
+    width: 60%;
+}
+.edu {
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+    
+    
+}
+.boards{
+   display: flex;
+   
+   justify-content: space-evenly;
+}
+.tenth,.twelth{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.college{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quali-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 61vh;
+}
+.quali-title > *{
+    padding: 10px;
+}
+.Quali-Skill-head{
+    font-size: 2vw;
+    margin-top: 3vh;
+    
+    display: flex;
+    justify-content: center;
+   
+}
+.Quali-Skill-head b{
+   
+    padding: 8px;
+    padding-left: 35px;padding-right: 35px;
+    border-radius: 20px;
+    background-color: rgb(6, 2, 52);
+    box-shadow: 2px 6px 8px rgba(0,0,0,0.8);
+    font-style: italic;
+    text-decoration:underline 2px;
+    
+}
+.quali-skills{
+    display: flex;
+    flex-direction: column;
+    
+}
+.list{
+    font-size: 1vw;
+    font-weight: 900;
+    color: rgb(6, 2, 52);
+}
+.list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr;
+}
+.list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.li2{
+    margin-left: 100%;
+    text-align: center;
+}
+.contactbox{
+    width: 80%;
+    display: flex;
+}
+.contact-page{
+    display: flex;
+    justify-content: center;
+}
+.contactbox2{
+    
+    width: 50%;
+    height: 61vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px 40px 20px 40px;
+    
+    align-items: center;
+}
+.name-con,.email-box,.phone,.address-con {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 3fr;
+    width: 60%;
+    border: 2px solid;
+    padding: 10px;
+    background-color: rgb(217, 232, 245);
+    color: rgb(6, 2, 52);
+    border-radius: 20px;
+    box-shadow: 6px 4px 6px rgba(0,0,0,0.6);
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: popins;
+}
+.name-con i,.email-box i,.phone i,.address-con i{
+      margin-left: auto;
+      margin-right: 1vw;
+}
+.insta a img ,.facebook img,.github img {
+    width: 30px;
+    border-radius: 50%;
+    box-shadow:4px 4px 6px rgba(0,0,0,0.8) ;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+#get-in-touch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+    background-color: rgb(6, 2, 52);
+    color: aliceblue;
+    border-radius:20px 40px 20px 40px ;
+}
+.touch-title{
+    font-size: 2vw;
+    font-family:poppins ;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.touch-name,.touch-email,.touch-phone{
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.touch-name label,.touch-email label,.touch-phone label{
+    text-align: right;
+    width: 100%;
+    
+}
+.touch-name input ,.touch-email input,.touch-phone input{
+    width: 60%;
+    padding: 10px;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 3px solid rgb(194, 221, 245);
+    background-color: rgb(221, 233, 245);
+}
+.touch-message textarea{
+    
+    padding: 10px;
+    background-color: rgb(221, 233, 245);
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 3px solid rgb(194, 221, 245);
+}
+
+.send button{
+    float: right;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid aliceblue;
+    background-color: #00BBFF;
+    font-weight: bold;
+    color: rgb(6, 2, 52);
+    box-shadow: 0px 6px 2px;
+    width: 150px;
+    cursor: pointer;
+}
+.send button:hover{
+    background-color: aliceblue;
+    color: rgb(6, 2, 52);
+    border: 3px solid #00BBFF;
+    font-weight: bolder;
+    opacity: 0.8;
+
+}
